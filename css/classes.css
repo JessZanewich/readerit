@@ -1,0 +1,39 @@
+/*Separate small classes for adjustments to certain content*/
+.new-post {
+	margin: 10px;
+}
+.center {
+	margin: 5px;
+	padding: 3px;
+}
+
+.url {
+	padding: 5px;
+	font-size: 12px;
+	max-width: 700px;
+	overflow: hidden;
+  text-overflow: ellipsis;
+  color: #66a3ff;
+}
+.url:link {
+	color: #0047b3;
+}
+.url:visited {
+	color: #0047b3;
+}
+@media only screen and (max-width: 700px) {
+	.url {
+		padding: 5px;
+		font-size: 12px;
+		max-width: 150px;
+		overflow: hidden;
+	  text-overflow: ellipsis;
+	}
+
+	.title {
+		font-weight: bold;
+		max-width: 150px;
+		overflow: hidden;
+	  text-overflow: ellipsis;
+	}
+}

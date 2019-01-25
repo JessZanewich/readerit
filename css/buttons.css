@@ -1,0 +1,19 @@
+/* button styling */
+.blue-button {
+	background-color: #008CBA;
+	border: none;
+  color: white;
+  padding: 9px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition: 0.5s;
+}
+.upvote {
+	background-color: none;
+	border: none;
+}
+.upvote:hover {
+	color: blue;
+}

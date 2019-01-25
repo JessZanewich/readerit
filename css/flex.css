@@ -1,0 +1,51 @@
+/* Flex Containers and Box Styling */
+.container {
+	display: flex;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.navigation {
+	display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	justify-content: center;
+}
+
+.box {
+	display: flex;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	margin: 8px;
+	padding: 0px;
+}
+.post {
+	display: flex;
+	justify-content: flex-start;
+	margin: 8px;
+	background-color: #E9E9E9;
+	border-radius: 20px;
+	flex-flow: row wrap;
+	-webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.65);
+	box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.65);
+}
+.comment-box {
+	display: flex;
+	margin: 8px;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 30px;
+}
+
+.col {
+	flex-direction: column;
+}

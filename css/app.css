@@ -1,0 +1,32 @@
+/*Larger content piece specifications, by element*/
+body {
+	background: #A9B7C0;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	margin: 3px;
+	padding: 0px;
+}
+input {
+	padding: 8px;
+  border: solid 2px #c9c9c9;
+  transition: border 0.2s;
+}
+input:focus {
+	border: solid 2px #c9c9c9;
+}
+textarea {
+	padding: 8px;
+  border: solid 2px #c9c9c9;
+  transition: border 0.2s;
+  border-radius: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
